@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'app.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await setUpLocator();
+  // WidgetsFlutterBinding.ensureInitialized();
+  setUpLocator();
   runApp(CallRecorder());
 }
